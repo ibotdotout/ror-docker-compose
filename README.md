@@ -6,5 +6,5 @@ file for Quickstart Guide
 How to:
 
 ```sh
-$ ./bin/build && ./bin/new
+$ ./_docker_bin/build && ./_docker_bin/new
 ```
