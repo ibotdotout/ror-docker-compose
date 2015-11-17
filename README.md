@@ -6,5 +6,5 @@ file for Quickstart Guide
 How to:
 
 ```sh
-$ ./bin/new && ./bin/build
+$ ./bin/build && ./bin/new
 ```
