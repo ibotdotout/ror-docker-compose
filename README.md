@@ -21,3 +21,10 @@ $ mv database.yml config/database.yml
 ```sh
 $ ./_docker_bin/up
 ```
+
+### Update Gems
+
+```sh
+# rebuild your docker image
+$ ./_docker_bin/build
+```
