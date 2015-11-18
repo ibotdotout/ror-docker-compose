@@ -9,9 +9,9 @@ How to:
 
 ```sh
 # build docker image
-$ ./_docker_bin/build
+$ ./bin/dbuild
 # rails new
-$ ./_docker_bin/new
+$ ./bin/dnew
 # replace database.yml
 $ mv database.yml config/database.yml
 ```
@@ -19,12 +19,12 @@ $ mv database.yml config/database.yml
 ### Run
 
 ```sh
-$ ./_docker_bin/up
+$ ./bin/dup
 ```
 
 ### Update Gems
 
 ```sh
 # rebuild your docker image
-$ ./_docker_bin/build
+$ ./bin/dbuild
 ```

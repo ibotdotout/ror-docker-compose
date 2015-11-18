@@ -2,3 +2,5 @@
 
 docker-compose run web rails new . --force --database=postgresql --skip-bundle
 sed -i -e '/therubyracer/s|# gem|gem|' Gemfile
+mv config/database.yml config/database.yml.backup
+mv database.yml config/database.yml
